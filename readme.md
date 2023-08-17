@@ -1,6 +1,6 @@
 # SonarQube and Sonar Scanner Installation Automation
 
-This is a base project for automating the installation and configuration of SonarQube and Sonar Scanner on a CentOS 7 virtual machine. Use this project as a starting point to create your own installation automation.
+This is a basic project to automate the installation and configuration of SonarQube and Sonar Scanner in a CentOS 7 virtual machine. Use this project as a starting point to create your own installation automation.
 
 ## Requirements
 
