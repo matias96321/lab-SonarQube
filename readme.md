@@ -27,6 +27,7 @@ Start the virtual machine using Vagrant:
 $ vagrant up
 ```
 
+
 This will provision a CentOS 7 virtual machine with SonarQube and Sonar Scanner installed.
 
 ## Script Details
