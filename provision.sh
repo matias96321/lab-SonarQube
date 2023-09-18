@@ -1,5 +1,9 @@
 #/usr/bin/bash
+
 useradd sonar
+
+# Install SonarQube
+
 yum install wget unzip java-11-openjdk-devel -y 
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.1.0.47736.zip
 unzip sonarqube-9.1.0.47736.zip -d /opt/
@@ -24,7 +28,7 @@ EOT
 systemctl daemon-reload
 service sonar start
 
-# instalando o sonar scanner
+# Install Sonar-scanner
 
 wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-linux.zip
 unzip sonar-scanner-cli-4.6.2.2472-linux.zip -d /opt
